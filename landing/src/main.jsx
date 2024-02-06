@@ -1,14 +1,15 @@
+import './style.css'
 import React from "react"
-import {Header} from "./components/header/header"
-import {Body} from "./components/body/body"
-import {Footer} from "./components/footer/footer"
+import { createRoot } from "react-dom/client"
+import App from './App'
+/*When you have problems with the import, change the name pls*/
 
-export default function App(){
-    return(
-        <div>
-            <Header />
-            <Body />
-            <Footer />
-        </div>
-    )
-}
+const appContainer = document.getElementById("app")
+const root = createRoot(appContainer)
+
+
+/*Cammel case for the component name (starts with uppercase)*/
+
+root.render(<App/>)
+console.log(appContainer)
+
