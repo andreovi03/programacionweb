@@ -9,7 +9,7 @@ export function Header(){
             <div id="header">
                 <Logo></Logo>
                 <div id="searchbar">
-                <h3>Search</h3>
+                <h3 id="searchtxt">Search</h3>
                 <Searchicon></Searchicon>
                 </div>
                 <div id="profile">

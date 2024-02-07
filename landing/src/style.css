@@ -3,16 +3,19 @@
   margin: 0 auto;
   text-align: center;
 }
-
+/*HEADER TIME*/
 #header {
   display: flex;
   flex-direction: row;
   height: 95px;
   background-color: rgb(0, 0, 0);
+  place-items: center;
 }
 
 #poppylogo{
-  height: 60px;
+  height: 70px;
+  padding-left: 30px;
+  padding-right: 235px;
 }
 
 #profilelogo {
@@ -20,16 +23,33 @@
 }
 
 #searchbar {
-  width: 600px;
-  height: 65px;
+  width: 595px;
+  height: 43px;
   display: flex;
   flex-direction: row;
-  background-color: #1a1a1a;
+  align-items: center;
+  border-style: inset;
+  border-width: 1px;
+}
+
+#searchtxt{
+  padding-left: 25px;
+  font-family: Raleway;
+  color: #919191;
 }
 
 #searchicon {
-  width: 60px;
-}
+  display: flex;
+  width: 36px;
+  position: relative;
+  left: 460px;
+  }
+
+/*BODY TIME*/
+
+
+/*FOOTER TIME*/
+
 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
