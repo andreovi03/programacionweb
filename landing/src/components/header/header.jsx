@@ -1,10 +1,19 @@
 import React from "react"
+import { Logo } from "./logo/logo"
+import { Profile } from "./logo/logo"
 
 export function Header(){
     return(
-        <header>
-        <h1>This is the header</h1>
-        </header>
+        <main>
+            <div id="header">
+                <Logo></Logo>
+                <div id="searchbar">
+                <h3>Search</h3>
+                </div>
+                <div id="profile">
+                <Profile></Profile>
+                </div>
+            </div>
+        </main>
     )
 }
-
