@@ -18,4 +18,14 @@ export function Profile() {
         <img id="profilelogo" src={imageUrl} alt="Profile"/>
   
     );
-  }
+}
+
+export function Searchicon() {
+    const imageUrl = 'https://icones.pro/wp-content/uploads/2021/02/loupe-et-icone-de-recherche-de-couleur-grise.png';
+    
+    return (
+     
+        <img id="searchicon" src={imageUrl} alt="Search Icon"/>
+  
+    );
+}

@@ -1,7 +1,36 @@
-.header {
+#app{
   width: 100%;
-  height: 300px;
+  margin: 0 auto;
+  text-align: center;
 }
+
+#header {
+  display: flex;
+  flex-direction: row;
+  height: 95px;
+  background-color: rgb(0, 0, 0);
+}
+
+#poppylogo{
+  height: 60px;
+}
+
+#profilelogo {
+  height: 30px;
+}
+
+#searchbar {
+  width: 600px;
+  height: 65px;
+  display: flex;
+  flex-direction: row;
+  background-color: #1a1a1a;
+}
+
+#searchicon {
+  width: 60px;
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -29,7 +58,6 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -39,12 +67,7 @@ h1 {
   line-height: 1.1;
 }
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
+
 
 
 .logo {
