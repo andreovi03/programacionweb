@@ -18,10 +18,6 @@
   padding-right: 235px;
 }
 
-#profilelogo {
-  height: 30px;
-}
-
 #searchbar {
   width: 595px;
   height: 43px;
@@ -35,15 +31,48 @@
 #searchtxt{
   padding-left: 25px;
   font-family: Raleway;
-  color: #919191;
+  color: #d0d0d0;
 }
 
 #searchicon {
   display: flex;
   width: 36px;
   position: relative;
-  left: 460px;
-  }
+  left: 470px;
+}
+
+#profile{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 88px;
+}
+
+#profilelogo {
+  height: 28px;
+}
+
+#signregistertxt{
+  padding-left: 10px;
+  font-family: Raleway;
+  font-size: 15px;
+}
+#shopsection{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding-left: 50px;
+}
+
+#shoptxt{
+  padding-left: 15px;
+  font-family: Raleway;
+  color: #d0d0d0;
+}
+
+#shop{
+  width: 23px;
+}
 
 /*BODY TIME*/
 

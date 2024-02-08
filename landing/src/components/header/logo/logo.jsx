@@ -29,3 +29,13 @@ export function Searchicon() {
   
     );
 }
+
+export function Shop() {
+    const imageUrl = 'https://icones.pro/wp-content/uploads/2021/05/symbole-charrette-gris.png';
+    
+    return (
+     
+        <img id="shop" src={imageUrl} alt="Shop"/>
+  
+    );
+}
