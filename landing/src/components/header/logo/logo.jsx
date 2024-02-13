@@ -10,32 +10,42 @@ export function Logo() {
   );
 }
 
-export function Profile() {
-    const imageUrl = 'https://icones.pro/wp-content/uploads/2021/02/icone-utilisateur-gris.png';
-    
-    return (
-     
-        <img id="profilelogo" src={imageUrl} alt="Profile"/>
-  
-    );
+export function New(){
+  const imageUrl = 'https://poppyplaytime.com/cdn/shop/files/new_v2-01_250x.svg?v=1688072631';
+
+  return (
+   
+    <img id="newlogo" src={imageUrl} alt="New Arrivals"/>
+
+  );
 }
 
-export function Searchicon() {
-    const imageUrl = 'https://icones.pro/wp-content/uploads/2021/02/loupe-et-icone-de-recherche-de-couleur-grise.png';
-    
-    return (
-     
-        <img id="searchicon" src={imageUrl} alt="Search Icon"/>
-  
-    );
+export function Plush(){
+  const imageUrl = 'https://poppyplaytime.com/cdn/shop/files/plush_250x.svg?v=1688068181';
+
+  return (
+   
+    <img id="newlogo" src={imageUrl} alt="New Arrivals"/>
+
+  );
 }
 
-export function Shop() {
-    const imageUrl = 'https://icones.pro/wp-content/uploads/2021/05/symbole-charrette-gris.png';
-    
-    return (
-     
-        <img id="shop" src={imageUrl} alt="Shop"/>
-  
-    );
+export function Apparel(){
+  const imageUrl = 'https://poppyplaytime.com/cdn/shop/files/apparel-01_250x.svg?v=1688073138';
+
+  return (
+   
+    <img id="newlogo" src={imageUrl} alt="New Arrivals"/>
+
+  );
+}
+
+export function Accesories(){
+  const imageUrl = 'https://poppyplaytime.com/cdn/shop/files/mug_v2-01_250x.svg?v=1688075839';
+
+  return (
+   
+    <img id="newlogo" src={imageUrl} alt="New Arrivals"/>
+
+  );
 }
