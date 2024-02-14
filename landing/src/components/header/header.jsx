@@ -24,10 +24,10 @@ export function Header(){
               <h3 id="dogdaytxt">DOGDAY IS OFFICIALLY HERE! CHECK OUT THE DOGDAY PLUSH NOW!</h3>
             </div>
             <div id="optionbar">
-            <Cards id="newarrivals" text= 'NEW ARRIVALS' iconUrl='https://poppyplaytime.com/cdn/shop/files/new_v2-01_250x.svg?v=1688072631'></Cards>
-            <Cards id="plush" text= 'PLUSH' iconUrl='https://poppyplaytime.com/cdn/shop/files/plush_250x.svg?v=1688068181'></Cards>
-            <Cards id="apparel" text= 'APPAREL' iconUrl='https://poppyplaytime.com/cdn/shop/files/apparel-01_250x.svg?v=1688073138'></Cards>
-            <Cards id="accesories" text= 'ACCESORIES' iconUrl='https://poppyplaytime.com/cdn/shop/files/new_v2-01_250x.svg?v=1688072631'></Cards> 
+            <OptionCards text= 'NEW ARRIVALS' iconUrl='https://poppyplaytime.com/cdn/shop/files/new_v2-01_250x.svg?v=1688072631'></OptionCards>
+            <OptionCards text= 'PLUSH' iconUrl='https://poppyplaytime.com/cdn/shop/files/plush_250x.svg?v=1688068181'></OptionCards>
+            <OptionCards text= 'APPAREL' iconUrl='https://poppyplaytime.com/cdn/shop/files/apparel-01_250x.svg?v=1688073138'></OptionCards>
+            <OptionCards text= 'ACCESORIES' iconUrl='https://poppyplaytime.com/cdn/shop/files/new_v2-01_250x.svg?v=1688072631'></OptionCards> 
             </div>
         </main>
     )

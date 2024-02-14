@@ -1,10 +1,12 @@
-export function Cards(props) {
+export function OptionCards(props) {
     const {text,iconUrl} = props
     return (
-        <div id="cards">
-             <img src={iconUrl} id='profile' />
-            <p>{text}</p>
+        <div id="optioncards">
+          <img src={iconUrl} id='optionicon' />
+          <p>{text}</p>
         </div>
 
     )
 }
+
+
