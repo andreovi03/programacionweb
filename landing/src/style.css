@@ -106,31 +106,19 @@ body{
   display: flex;
   height: 200px;
   flex-direction: row;
-  align-items: flex-end;
+  align-items: center;
+  justify-content: center;
+  gap: 120px;
   height: 80px;
   background-color: white;
   width: 100%;
 }
 
-
-
-/*
-
-  height: 81px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 120px;
-}
-*/
-
-
 #optioncards{
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 10px;
+  margin-top: 15px;
   width: 110px;
   height: 100%;
   color: black;
@@ -141,7 +129,7 @@ body{
   flex-direction: column;
   align-items: center;
   width: 100%;
-  margin: 5px;
+  margin: 8px;
   font-weight: 500;
   font-size: 12px;
 }
