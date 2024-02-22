@@ -41,7 +41,7 @@ export function Body () {
           <button id='shopall'>SHOP ALL</button>
         </div>
         <div> <img id='giftcardimg' src='src/assets/giftcard.png' alt='giftcard' /></div>
-        <div> <img id='chapter3img' src='src/assets/ppchapter3.png' alt='chapter3' /></div>
+        <img id='chapter3img' src='src/assets/ppchapter3.png' alt='chapter3' />
       </div>
     </main>
   )

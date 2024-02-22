@@ -157,6 +157,7 @@ body{
 /*? BODY TIME */
 #body{
   width: 100%;
+  height: 100%;
 }
 #carrousel img{
   width: 100%;
@@ -216,19 +217,94 @@ body{
   margin-top: 60px;
   width: 100%;
 }
+
 #chapter3img{
+  height: 100%;
+  background-color: #121212;
   margin-top: 60px;
   width: 100%;
+  margin-bottom: 0;
 }
 
-
 /*? FOOTER TIME*/
-
-
-
-
-
-
+#footer{
+  background-color: #121212;
+  height: 100%;
+}
+h2{
+  margin: 0;
+}
+#links{
+  display: flex;
+  flex-direction: row;
+  padding-left: 90px;
+  gap: 260px;
+}
+#links h2{
+  font-weight: 750;
+  margin-bottom: 15px;
+}
+#quicklinks{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+}
+#information{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+}
+#chapter2{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+}
+#socialmedia{
+  position: absolute;
+  padding-top: 70px;
+  padding-left: 90px;
+  display: flex;
+  width: 180px;
+  gap: 30px;
+}
+#socialmedia img{
+  align-items: center;
+  height: 100%;
+  width: 15px;
+}
+#moblogo{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  padding-right: 90px;
+}
+#footerend{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-top: 200px;
+  width: 600px;
+  padding-left: 90px;
+}
+#footerend h3{
+  font-size: 12px;
+  font-weight: 200;
+  padding-bottom: 8px;
+}
+#country{
+  padding: 10px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px;
+}
+#footerend p{
+  padding-top: 20px;
+  font-size: 10px;
+  font-weight: 200;
+}
 
 @media (prefers-color-scheme: light) {
   :root {
