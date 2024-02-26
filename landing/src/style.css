@@ -16,305 +16,527 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-#app{
-  width: 100%;
-  max-width: 1600px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-body{
-  margin: 0;
-}
-
-/*? HEADER TIME */
-#header {
-  display: flex;
-  flex-direction: row;
-  height: 95px;
-  background-color: rgb(0, 0, 0);
-  place-items: center;
-}
-
-#poppylogo{
-  height: 70px;
-  padding-left: 30px;
-  padding-right: 235px;
-}
-
-#searchbar {
-  width: 595px;
-  height: 45px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  border-style: inset;
-  border-width: 1px;
-}
-
-#searchtxt{
-  padding-left: 25px;
-  font-family: Raleway;
-  color: #d0d0d0;
-}
-
-#searchicon {
-  display: flex;
-  width: 36px;
-  position: relative;
-  left: 470px;
-}
-
-#profile{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding-left: 88px;
-}
-
-#profilelogo {
-  height: 28px;
-}
-
-#signregistertxt{
-  padding-left: 10px;
-  font-family: Raleway;
-  font-size: 15px;
-}
-
-#shopsection{
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  padding-left: 50px;
-}
-
-#shoptxt{
-  padding-left: 10px;
-  font-family: Raleway;
-  color: #d0d0d0;
-  font-size: 15px;
-}
-
-#shop{
-  width: 23px;
-}
-
-#orangeheader{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 40px;
-  background-color: #ff9c00;
-  color: #ffffff;
-  text-align: center;
-}
-
-#dogdaytxt{
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-size: 15px;
-  margin: 0%;
-}
-
-
-#optionbar{
-  display: flex;
-  height: 200px;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 143px;
-  height: 80px;
-  background-color: white;
-  width: 100%;
-}
-
-#optioncards{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 15px;
-  width: 110px;
-  height: 100%;
-  color: black;
-}
-
-#optioncards p{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  margin: 8px;
-  font-weight: 500;
-  font-size: 12px;
-}
-
-#optioncards img{
-  width: 40px;
-}
-
-/*? BODY TIME */
-#body{
-  width: 100%;
-  height: 100%;
-}
-#carrousel img{
-  width: 100%;
-}
-
-#productzone{
-  margin-top: 40px;
-  width: 100%;
-  gap: 10px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-#products{
-  width: 320px;
-  display: flex;
-  flex-direction: column;
-}
-#products h3{
-  font-weight: 500;
-  color: #000000;
-  margin-top: 20px;
-  margin-bottom: 5px;
-}
-#products p{
-  color: #575757;
-  margin-top: 5px;
-  margin-bottom: 0;
-}
-#appareltxt h3{
-  color: #000000;
-  font-size: 56px;
-  font-weight: 800;
-  margin-bottom: 10px;
-}
-#apparelzone{
-  margin-top: 40px;
-  width: 100%;
-  gap: 10px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-#shopallbtn button{
-  margin-top: 30px;
-  font-family: "Montserrat", sans-serif;
-  background-color: #f6ff00;
-  font-weight: 800;
-  font-size: 15px;
-  border-color: transparent;
-  color: #000000;
-  width: 148px;
-  height: 45px;
-  border-radius: 30px;
-}
-#giftcardimg{
-  margin-top: 60px;
-  width: 100%;
-}
-
-#chapter3img{
-  height: 100%;
-  background-color: #121212;
-  margin-top: 60px;
-  width: 100%;
-  margin-bottom: 0;
-}
-
-/*? FOOTER TIME*/
-#footer{
-  background-color: #121212;
-  height: 100%;
-}
-h2{
-  margin: 0;
-}
-#links{
-  display: flex;
-  flex-direction: row;
-  padding-left: 90px;
-  gap: 260px;
-}
-#links h2{
-  font-weight: 750;
-  margin-bottom: 15px;
-}
-#quicklinks{
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  gap: 10px;
-}
-#information{
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  gap: 10px;
-}
-#chapter2{
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  gap: 10px;
-}
-#socialmedia{
-  position: absolute;
-  padding-top: 70px;
-  padding-left: 90px;
-  display: flex;
-  width: 180px;
-  gap: 30px;
-}
-#socialmedia img{
-  align-items: center;
-  height: 100%;
-  width: 15px;
-}
-#moblogo{
-  display: flex;
-  flex-direction: row;
-  justify-content: end;
-  padding-right: 90px;
-}
-#footerend{
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  margin-top: 200px;
-  width: 600px;
-  padding-left: 90px;
-}
-#footerend h3{
-  font-size: 12px;
-  font-weight: 200;
-  padding-bottom: 8px;
-}
-#country{
-  padding: 10px;
-  border-style: solid;
-  border-color: #ffffff;
-  border-width: 1px;
-}
-#footerend p{
-  padding-top: 20px;
-  font-size: 10px;
-  font-weight: 200;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+@media (min-width: 375px) and (max-width: 1024px){
+  #app{
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
   }
-  a:hover {
-    color: #747bff;
+  body{
+    margin: 0;
+  } 
+  /*?HEADER TIME*/
+  #header {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    height: 95px;
+    background-color: rgb(0, 0, 0);
+    place-items: center;
+    justify-content: center;
   }
-  button {
-    background-color: #f9f9f9;
+  #hamburger{
+    width: 30px;
   }
+  #poppylogo{
+    width: 120px;
+  }
+  #searchbar {
+    display: none;
+  }
+  #searchtxt{
+    display: none;
+  }
+  #searchicon {
+    display: none;
+  }
+  #profile{
+    width: 30px;
+  } 
+  #profilelogo {
+    display: none;
+  }
+  #signregistertxt{
+    display: none;
+  }
+  #shoptxt{
+    display: none;
+  }
+  #shop{
+    width: 30px;
+  }
+  #optionbar{
+    display: none;
+  }
+  #optioncards{
+    display: none;
+  }
+  #orangeheader{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    background-color: #ff9c00;
+    color: #ffffff;
+    text-align: center;
+  }
+  #dogdaytxt{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    margin: 0%;
+  }
+
+  /*?BODY TIME*/
+  #body{
+    width: 100%;
+    height: 100%;
+  }
+  #carrousel1025{
+    display: none;
+  }
+  #carrousel img{
+    width: 100%;
+  }
+  #productzone{
+    margin-top: 40px;
+    width: 100%;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  #products{
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+  }
+  #products h3{
+    font-weight: 500;
+    color: #000000;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+  #products p{
+    color: #575757;
+    margin-top: 5px;
+    margin-bottom: 0;
+  }
+  #appareltxt h3{
+    color: #000000;
+    font-size: 56px;
+    font-weight: 800;
+    margin-bottom: 10px;
+  }
+  #apparelzone{
+    margin-top: 40px;
+    width: 100%;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  #shopallbtn button{
+    margin-top: 30px;
+    font-family: "Montserrat", sans-serif;
+    background-color: #f6ff00;
+    font-weight: 800;
+    font-size: 15px;
+    border-color: transparent;
+    color: #000000;
+    width: 148px;
+    height: 45px;
+    border-radius: 30px;
+  }
+  #giftcardimg1025{
+    display: none;
+  }
+  #giftcardimg375{
+    margin-top: 60px;
+    width: 100%;
+  }
+  #chapter3img{
+    height: 100%;
+    background-color: #121212;
+    margin-top: 60px;
+    width: 100%;
+    margin-bottom: 0;
+  }
+  /*?FOOTER TIME*/
+  #footer{
+    background-color: #121212;
+    height: 100%;
+  }
+  h2{
+    margin: 0;
+  }
+  #links{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    gap: 30px;
+  }
+  #links h2{
+    font-weight: 750;
+    margin-bottom: 15px;
+  }
+  #quicklinks{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+  }
+  #information{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+  }
+  #chapter2{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+  }
+  #socialmedia{
+    position: absolute;
+    padding-top: 200px;
+    padding-left: 90px;
+    display: flex;
+    width: 180px;
+    gap: 30px;
+  }
+  #socialmedia img{
+    align-items: center;
+    height: 100%;
+    width: 15px;
+  }
+  #moblogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding-top: 40px;
+    padding-right: 90px;
+  }
+  #footerend{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 200px;
+    width: 100%;
+    padding-left: 20px;
+  }
+  #footerend h3{
+    font-size: 12px;
+    font-weight: 200;
+    padding-bottom: 8px;
+  }
+  #country{
+    padding: 10px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 1px;
+  }
+  #footerend p{
+    padding-top: 20px;
+    font-size: 6px;
+    font-weight: 200;
+  }
+
+
+}
+
+@media (min-width: 1025px){
+  #app{
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  body{
+    margin: 0;
+  }
+
+  /*?HEADER TIME*/
+  #header {
+    display: flex;
+    flex-direction: row;
+    height: 95px;
+    background-color: rgb(0, 0, 0);
+    place-items: center;
+  }
+  #hamburger{
+    display: none;
+  }
+  #poppylogo{
+    height: 70px;
+    padding-left: 30px;
+    padding-right: 80px;
+  }
+  #searchbar {
+    width: 495px;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-style: inset;
+    border-width: 1px;
+  }
+  #searchtxt{
+    padding-left: 25px;
+    font-family: Raleway;
+    color: #d0d0d0;
+  }
+  #searchicon {
+    display: flex;
+    width: 36px;
+    position: relative;
+    left: 350px;
+  }
+  #profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 30px;
+  }
+  #profilelogo {
+    height: 28px;
+  }
+  #signregistertxt{
+    width: 100px;
+    padding-left: 10px;
+    font-family: Raleway;
+    font-size: 15px;
+  }
+  #shopsection{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 10px;
+  }
+  #shoptxt{
+    padding-left: 10px;
+    font-family: Raleway;
+    color: #d0d0d0;
+    font-size: 15px;
+  }
+  #shop{
+    width: 23px;
+  }
+  #orangeheader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    background-color: #ff9c00;
+    color: #ffffff;
+    text-align: center;
+  }
+  #dogdaytxt{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    margin: 0%;
+  }
+  #optionbar{
+    display: flex;
+    height: 200px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 143px;
+    height: 80px;
+    background-color: white;
+    width: 100%;
+  }
+  #optioncards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+    width: 110px;
+    height: 100%;
+    color: black;
+  }
+  #optioncards p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 8px;
+    font-weight: 500;
+    font-size: 12px;
+  }
+  #optioncards img{
+    width: 40px;
+  }
+
+  /*?BODY TIME*/
+  #body{
+    width: 100%;
+    height: 100%;
+  }
+  #carrousel375{
+    display: none;
+  }
+  #carrousel img{
+    width: 100%;
+  }
+  #zone1{
+    display: flex;
+    flex-direction: row;
+  }
+  #zone2{
+    display: flex;
+    flex-direction: row;
+  }
+  #productzone{
+    margin-top: 40px;
+    width: 50%;
+    gap: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  #products{
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+  }
+  #products h3{
+    font-weight: 500;
+    color: #000000;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+  #products p{
+    color: #575757;
+    margin-top: 5px;
+    margin-bottom: 0;
+  }
+  #appareltxt h3{
+    color: #000000;
+    font-size: 56px;
+    font-weight: 800;
+    margin-bottom: 10px;
+  }
+  #apparelzone{
+    margin-top: 40px;
+    width: 100%;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  #shopallbtn button{
+    margin-top: 30px;
+    font-family: "Montserrat", sans-serif;
+    background-color: #f6ff00;
+    font-weight: 800;
+    font-size: 15px;
+    border-color: transparent;
+    color: #000000;
+    width: 148px;
+    height: 45px;
+    border-radius: 30px;
+  }
+  #giftcardimg375{
+    display: none;
+  }
+  #giftcardimg1025{
+    margin-top: 60px;
+    width: 100%;
+  }
+  #chapter3img{
+    height: 100%;
+    background-color: #121212;
+    margin-top: 60px;
+    width: 100%;
+    margin-bottom: 0;
+  }
+  /*?FOOTER TIME*/
+  #footer{
+    background-color: #121212;
+    height: 100%;
+  }
+  h2{
+    margin: 0;
+  }
+  #links{
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+    padding-top: 30px;
+    gap: 160px;
+  }
+  #links h2{
+    font-weight: 750;
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  #quicklinks{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+  }
+  #information{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+  }
+  #chapter2{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+  }
+  #socialmedia{
+    position: absolute;
+    padding-top: 90px;
+    padding-left: 90px;
+    display: flex;
+    width: 180px;
+    gap: 30px;
+  }
+  #socialmedia img{
+    align-items: center;
+    height: 100%;
+    width: 15px;
+  }
+  #moblogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding-right: 90px;
+    padding-top: 80px;
+  }
+  #footerend{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 200px;
+    width: 600px;
+    padding-left: 90px;
+  }
+  #footerend h3{
+    font-size: 12px;
+    font-weight: 200;
+    padding-bottom: 8px;
+  }
+  #country{
+    padding: 10px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 1px;
+  }
+  #footerend p{
+    padding-top: 20px;
+    font-size: 10px;
+    font-weight: 200;
+  }
+
 }

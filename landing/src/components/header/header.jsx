@@ -6,6 +6,7 @@ export function Header () {
   return (
     <main>
       <div id='header'>
+        <img id='hamburger' src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Hamburger_icon_white.svg/1024px-Hamburger_icon_white.svg.png' />
         <Logo />
         <div id='searchbar'>
           <h3 id='searchtxt'>Search</h3>
