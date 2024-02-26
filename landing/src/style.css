@@ -39,34 +39,33 @@
   #hamburger{
     width: 30px;
   }
+  .burguer-menu{
+    background-color: transparent;
+  }
   main nav{
     display: flex;
     position: fixed;
-    width: 93%;
-    top: 35%;
-    left: 3.5%;
-    height: 58%;
-    background-color: white;
-    border-radius: 35px 35px 0 0;
+    width: 80%;
+    top: 95px;
+    height: 100%;
+    background-color: #121212;
     box-shadow: rgba(0, 0, 0, 0.5) 0px 15px 20px;
   }
   main nav.hidden{
       display: none;
   }
-
   main nav ul{
       display: flex;
       position: fixed;
-      font-size: 56px;
+      font-size: 15px;
       list-style: none;
       padding: 0;
-      margin-top: 180px;
-      margin-left: 150px;
+      margin-top: 40px;
+      margin-left: 30px;
       flex-direction: column;
-      gap: 160px;
+      gap: 20px;
       text-align: left;
   }
-
   main nav ul li{
       display: flex;
       flex-direction: row;
@@ -74,14 +73,11 @@
       width: 85%;
       position: relative;
   }
-
   main nav ul li a{
-      color: rgb(77, 77, 77);
-      font-weight: bold;
+      color: rgb(255, 255, 255);
+      font-weight: 300;
       text-decoration: none;
   }
-
-
   #poppylogo{
     width: 120px;
   }
@@ -311,6 +307,9 @@
     place-items: center;
   }
   .burguer-menu{
+    display: none;
+  }
+  main nav ul{
     display: none;
   }
   #hamburger{
