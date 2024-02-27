@@ -1,5 +1,7 @@
 import React from 'react'
-import { Header, Body, Footer } from './components'
+import { Header } from './components/Header/Header'
+import { Body } from './components/Body/Body'
+import { Footer } from './components/Footer/Footer'
 
 export default function App () {
   return (
@@ -7,6 +9,7 @@ export default function App () {
       <Header />
       <Body />
       <Footer />
+
     </>
   )
 }

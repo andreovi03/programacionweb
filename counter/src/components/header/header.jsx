@@ -1,7 +1,9 @@
+import React from 'react'
+
 export function Header () {
-    return (
-      <>
-        <h1>Counter App</h1>
-      </>
-    )
-  }
+  return (
+    <>
+      <h1>NeoMagic Plant</h1>
+    </>
+  )
+}
