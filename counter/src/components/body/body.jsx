@@ -32,6 +32,10 @@ export function Body () {
       setImg(4)
     } else if (counter >= 127 && currentImageIndex === 4) {
       setImg(5)
+    } else if (counter >= 128 && currentImageIndex === 5) {
+      setImg(6)
+    } else if (counter >= 140 && currentImageIndex === 6) {
+      setImg(7)
     }
   }, [counter, currentImageIndex])
 
