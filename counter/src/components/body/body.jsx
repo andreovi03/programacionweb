@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react'
-import { Button } from '../Button/Button'
+import { Button } from '../button/button'
 import { images } from '../Plants/Images'
 
 export function Body () {
   const [counter, setCounter] = useState(0)
-  const [currentImageIndex, setCurrentImageIndex] = useState(0)
+  const [currentImageIndex, setImg] = useState(0)
   const [visible, setVisible] = useState(true)
 
   console.log(setVisible)
@@ -14,42 +14,40 @@ export function Body () {
       setCounter(counter + 1)
     } else if (value === 'subtract' && counter > 0) {
       setCounter(counter - 1)
-      setCurrentImageIndex(0)
+      setImg(0)
     } else if (value === 'reset') {
       setCounter(0)
-      setCurrentImageIndex(0)
+      setImg(0)
     }
   }
 
   useEffect(() => {
     if (counter >= 10 && currentImageIndex === 0) {
-      setCurrentImageIndex(1)
+      setImg(1)
     } else if (counter >= 30 && currentImageIndex === 1) {
-      setCurrentImageIndex(2)
+      setImg(2)
     } else if (counter >= 60 && currentImageIndex === 2) {
-      setCurrentImageIndex(3)
+      setImg(3)
     } else if (counter >= 90 && currentImageIndex === 3) {
-      setCurrentImageIndex(4)
+      setImg(4)
     } else if (counter >= 127 && currentImageIndex === 4) {
-      setCurrentImageIndex(5)
+      setImg(5)
     }
   }, [counter, currentImageIndex])
 
   return (
     <>
+      <h2>Add Magic Level to the Plant</h2>
 
-      <h2>Add Level to the Plant</h2>
+      {visible && <img src={images[currentImageIndex]} alt='Counter Image' className='change' />}
 
-      {visible && <img src={images[currentImageIndex]} alt='Counter Image' className='image-transition' />}
-      <div className='container'>
+      <div id='level'><h2>Level {counter}</h2></div>
+
+      <div className='buttons'>
         <Button onClick={() => handleClickCounter('subtract')}>-</Button>
-
+        <Button onClick={() => handleClickCounter('reset')}>Undo Magic</Button>
         <Button onClick={() => handleClickCounter('add')}>+</Button>
-
       </div>
-      <h2>{counter}</h2>
-      <Button onClick={() => handleClickCounter('reset')}>Reset</Button>
-
     </>
   )
 }

@@ -1,10 +1,9 @@
 import './style.css'
 import React from 'react'
 import { createRoot } from 'react-dom/client'
-import App from './app'
+import App from './App'
 
 const rootElement = document.getElementById('app')
 const root = createRoot(rootElement)
 
 root.render(<App />)
-console.log('Buenas')
