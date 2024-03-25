@@ -1,0 +1,66 @@
+@media (min-width: 375px) and (max-width: 1024px){
+    .filters-section{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0;
+    }
+    .filters-section div{
+        color: rgb(217, 107, 28);
+        background-color: rgb(255, 188, 152);
+        padding: 1rem;
+        font-weight: 480;
+        font-size: 1rem;
+        width: 6rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 0.5rem;
+        gap: 1rem;
+    }
+    
+    .filters-section select{
+        width: 100%;
+        background-color: rgb(255, 188, 152);   
+        border-color: white;
+        border-width: 0.1em;
+        border-radius: 0.5rem;
+    }
+}
+
+@media (min-width: 1025px){
+    .filters-section{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 5%;
+        margin: 0;
+    }
+    .filters-section div{
+        background-color: rgb(255, 188, 152);
+        color: rgb(217, 107, 28);
+        font-weight: 480;
+        height: 2rem;
+        width: 12rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0.8rem;
+        border-radius: 0.5rem;
+        gap: 1rem;
+    }
+    section.filters-section{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 2rem;
+    }
+    .filters-section select{
+        background-color: rgb(255, 188, 152);   
+        border-color: white;
+        border-width: 0.1em;
+        border-radius: 1rem;
+    }
+
+
+}

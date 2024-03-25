@@ -1,0 +1,54 @@
+@media (min-width: 375px) and (max-width: 1024px){
+    .activityButton button{
+        background-color: rgb(255, 152, 152);
+        color: rgb(202, 39, 39);
+        font-size: 0.8rem;
+        width: 6rem;
+        height: 3rem;
+    }
+    div.Activity{
+        width: 100%;
+        display: flex;
+        background: #FFF;
+        border-radius: 1rem;
+        padding: 0.5rem;
+        flex-direction: row;
+        justify-content: center;
+        gap: 1rem;
+    }
+    section.activityButton p{
+        color: rgb(202, 39, 39);
+        margin: 5%;
+        width: 5rem;
+        font-size: 70%;
+    }
+    section.filters-section{
+        width: 15rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+    }
+}
+
+
+@media (min-width: 1025px){
+    .activityButton button{
+        background-color: rgb(255, 152, 152);
+        color: rgb(202, 39, 39);
+    }
+    div.Activity{
+        display: flex;
+        background: #FFF;
+        border-radius: 1rem;
+        padding: 1rem;
+        flex-direction: row;
+        justify-content: center;
+        gap: 3rem;
+    }
+    section.activityButton p{
+        color: rgb(202, 39, 39);
+        margin: 5%;
+    }
+
+}

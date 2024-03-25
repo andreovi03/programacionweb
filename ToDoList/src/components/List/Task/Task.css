@@ -1,0 +1,161 @@
+@media (min-width: 375px) and (max-width: 1024px){
+    .task{
+        background: #FFF;
+        border-radius: 1rem;
+        margin-top: 1rem;;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 5rem;
+        gap: 1rem;
+    }
+
+    .task Button{
+        height: 2.5rem;
+        width: 5rem;
+        padding: 0;
+        background-color: rgb(255, 152, 152);
+        color: rgb(202, 39, 39);
+        margin-left: auto;
+    }
+    
+    .taskInfo{
+        width: 15rem;
+        gap: 1rem;
+        display: flex;
+        padding-left: 1rem;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .taskInfo p{
+        font-size: 100%;
+    }
+
+    input.checkbox-input{
+        background-image: url('./src/assets/red.png');
+        background-size: cover;
+        appearance: none;
+        width: 1.5rem;
+        height: 1.5rem;
+        border-radius: 1rem;
+        outline: none;
+        cursor: pointer;
+    }
+    input.checkbox-input:checked{
+        background-image: url('./src/assets/green.png');
+        background-size: cover;
+        appearance: none;
+        width: 1.5rem;
+        height: 1.5rem;
+        border-radius: 1rem;
+        outline: none;
+        cursor: pointer;
+    }
+
+    .home-category {
+        background-color: #ff48a6;
+        padding: 0.3rem;
+        color: #a40060;
+        border-radius: 0.8rem;
+    }
+      
+    .university-category {
+        background-color: #81ecff;
+        padding: 0.3rem;
+        color: #006374;
+        border-radius: 0.8rem;
+    }
+      
+    .personal-category {
+        background-color: #ffee81;
+        padding: 0.3rem;
+        color: #d6a000;
+        border-radius: 0.8rem;  
+    }
+    
+    .default-category {
+        color: black;
+    }
+}
+
+@media (min-width: 1025px){
+    .task{
+        background: #FFF;
+        border-radius: 1rem;
+        margin-top: 1rem;;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 5rem;
+    }
+
+    .task Button{
+        height: 3rem;
+        background-color: rgb(255, 152, 152);
+        color: rgb(202, 39, 39);
+        margin-left: auto;
+    }
+    
+    .taskInfo{
+        gap: 1rem;
+        display: flex;
+        padding-left: 1rem;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .taskInfo p{
+        font-size: 150%;
+    }
+
+    input.checkbox-input{
+        background-image: url('./src/assets/red.png');
+        background-size: cover;
+        appearance: none;
+        width: 2rem;
+        padding-right: 2rem;
+        height: 2rem;
+        border-radius: 1rem;
+        outline: none;
+        cursor: pointer;
+    }
+    input.checkbox-input:checked{
+        background-image: url('./src/assets/green.png');
+        background-size: cover;
+        appearance: none;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 1rem;
+        outline: none;
+        cursor: pointer;
+    }
+
+    .home-category {
+        background-color: #ff48a6;
+        color: #a40060;
+        padding: 0.3rem;
+        border-radius: 0.5rem;
+    }
+      
+    .university-category {
+        background-color: #81ecff;
+        color: #006374;
+        padding: 0.3rem;
+        border-radius: 0.5rem;
+    }
+      
+    .personal-category {
+        background-color: #ffee81;
+        color: #d6a000;
+        padding: 0.3rem;
+        border-radius: 0.5rem;
+    }
+    
+    .default-category {
+        color: black; 
+    }
+
+}
+
+
